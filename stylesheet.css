@@ -1,0 +1,50 @@
+html {
+    font-family: monospace;
+}
+
+.name-header {
+    color: mediumpurple;
+    font-size:50px;
+    text-align: center;
+}
+
+.nav {
+    font-size:15px;
+    border-top: mediumpurple;
+    border-bottom: mediumpurple;
+    border-width: medium;
+    border-top-style: double;
+    border-bottom-style: double;
+}
+
+.nav ul {
+    text-align: center;
+}
+
+.nav li {
+    list-style: none;
+    float: none;
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a, a:link, a:hover {
+    text-decoration: none;   
+    color: mediumpurple;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    z-index: 10000;
+    text-align:center;
+}
