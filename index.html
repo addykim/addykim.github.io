@@ -1,42 +1,75 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <link href="/stylesheet.css" rel="stylesheet" type="type/css"/>
-      <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/smoothness/jquery-ui.min.css" rel="stylesheet" type="text/css" />
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-      <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
-	<script src="/javascript.js"></script>
     <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/smoothness/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-        <title>Addy Kim</title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+     
+    <title>Addy Kim</title>
     </head>
     <body>
-        <div class="name-header">
-            Addy Kim
-        </div>
-        <div class="contact-header">
-          
-        </div>
-        <div class="photo">
-        <!--PUT STUFF HERE-->
-        </div>
         <div class="nav">
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="Addy_Kim_Resume.pdf">Resume</a></li>
+                <!--Open a view?-->
                 <li><a href="#Projects">Projects</a></li>
                 <li><a href="#Contact">Contact</a></li>
             </ul>
         </div>
-        <div class="overlay">
-            <iframe></iframe>
-            <!-- DISPLAY ABOUT, RESUME, PROJECTS ETC HERE-->
-            
+        <div class="name-header">
+            Addy Kim
         </div>
-        <div class="contact">
-	  <i class="fa fa-envelope-square fa-3x"></i>
-          <i class="fa fa-linkedin-square fa-3x"></i>
-          <i class="fa fa-github-square fa-3x"></i>
+        <div class="contact-header">
+        
+        </div>
+        <div class="photo">
+        <!-- TODO PUT STUFF HERE-->
+        </div>
+        <div class="container" id="content">
+          <div class="row" id="about">
+            <p>I'm a student at the University of Texas at Austin studying Computer Science. </p>
+          </div>
+          <div class="row" id="projects">
+            <h2>Projects</h2>
+            <div class="col-md-4" id="cat-viewer">
+              <h3>Cat Viewer</h3>
+              <p>Android app that displays cat images from Imgur.</p>
+              <!--TODO Insert image here-->
+            </div>
+            <div class="col-md-4" id="makeroute">
+              <h3>MakeRoute</h3>
+              <p>A dynamic web application that utilizes the power of the Google Maps and Yelp APIs to bring you the top rated travel destinations that you would otherwise just be passing by.<br>
+              Our HackDFW 2015 project.</p>
+              <!-- TODO Insert image here -->
+            </div>
+            <div class="col-md-4"><h3>Timer</h3>
+              <p>Pomodoro Timer for Android.</p>
+              <!-- TODO Insert image here -->
+            </div>
+          </div>
+        
+          <div class="row" id="contact">
+            <h2>Contact</h2>
+            <a href="mailto:as.kim@utexas.edu"><i class="fa fa-envelope-square fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/addykim"><i class="fa fa-linkedin-square fa-2x"></i></a>
+            <a href="https://www.github.com/addykim"><i class="fa fa-github-square fa-2x"></i></a>
+            <a href="https://www.stackoverflow.com/users/addy"><i class="fa fa-stack-overflow fa-2x"></i></a>
+          </div>
+        </div>
+        <div class="overlay">
+          <!--Leave unused?	-->
+        </div>
+        
+        <div id="updated">
+        	Last updated 5/30/15
         </div>
     </body>
 </html>

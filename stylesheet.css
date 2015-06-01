@@ -1,17 +1,16 @@
 html {
     font-family: monospace;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 .name-header {
-    color: mediumpurple;
     font-size:50px;
     text-align: center;
 }
 
 .nav {
     font-size:15px;
-    border-top: mediumpurple;
-    border-bottom: mediumpurple;
     border-width: medium;
     border-top-style: double;
     border-bottom-style: double;
@@ -31,7 +30,19 @@ html {
 
 a, a:link, a:hover {
     text-decoration: none;   
-    color: mediumpurple;
+    color: black;
+}
+
+.projects-columns {
+}
+
+.contact {
+    color: black;
+}
+
+.footer {
+    color: white;
+    height: 4em;
 }
 
 #overlay {
@@ -46,5 +57,4 @@ a, a:link, a:hover {
     -khtml-opacity: 0.5;
     opacity: 0.5;
     z-index: 10000;
-    text-align:center;
 }
