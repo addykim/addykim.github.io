@@ -33,13 +33,15 @@ a, a:link, a:hover {
     color: black;
 }
 
-.projects-columns {
-}
-
-.contact {
+#contact {
     color: black;
     text-align: center;
 }
+
+#contact h2 {
+    text-align:left;
+}
+
 
 .footer {
     color: white;
