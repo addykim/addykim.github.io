@@ -1,7 +1,5 @@
 html {
     font-family: monospace;
-    margin-right: 20%;
-    margin-left: 20%;
 }
 
 .name-header {
@@ -24,8 +22,8 @@ html {
     list-style: none;
     float: none;
     display: inline;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 a, a:link, a:hover {
@@ -35,7 +33,6 @@ a, a:link, a:hover {
 
 #contact {
     color: black;
-    text-align: center;
 }
 
 #contact h2 {
