@@ -1,47 +1,5 @@
-html {
-    font-family: monospace;
-}
+.body {
+  vertical-align: middle;
+  font-family: "Arial", serif, monospace; }
 
-.name-header {
-    font-size:50px;
-    text-align: center;
-}
-
-.nav {
-    font-size:15px;
-    border-width: medium;
-    border-top-style: double;
-    border-bottom-style: double;
-}
-
-.nav ul {
-    text-align: center;
-}
-
-.nav li {
-    list-style: none;
-    float: none;
-    display: inline;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-a, a:link, a:hover {
-    text-decoration: none;   
-    color: black;
-}
-
-#contact {
-    color: black;
-}
-
-#contact h2 {
-    text-align:left;
-}
-
-
-.footer {
-    color: white;
-    height: 4em;
-    text-align: right;
-}
+/*# sourceMappingURL=stylesheet.css.map */
