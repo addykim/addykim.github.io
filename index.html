@@ -7,74 +7,73 @@
       <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
       <title>Addy Kim</title>
   
-      <!-- Bootstrap -->
-      <link href="css/bootstrap.min.css" rel="stylesheet">
-      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-      <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-      <![endif]-->
-      
       <link href="stylesheet.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      
     </head>
     <body>
-      <div class="container-fluid">
-        <nav class="navbar navbar-default">
-          <div class="container-fluid">
-            <div class="navbar-header">
-              <a href="#about">About</a>
-              <a href="#projects">Projects</a>
-              <a href="#">Blog</a>
-              <a href="mailto: as.kim@utexas.edu"><i class="fa-envelope-square"></i></a>
-              <a href="#"><i class="fa-github-square"></i></a>
-              <a href="#"><i class="fa-linkedin-square"></i></a>
-              <!--<a href="#"><i class="fa-stack-overflow"></i></a>-->
-            </div>
-          </div>
+      <div class="container center">
+        <nav class="navbar-default" role="navigation">
+          <ul class="nav nav-pills nav-justified">
+            <li role="presentation" class="active"><a href="#">About</a></li>
+            <li role="presentation"><a href="#about">Projects</a></li>
+            <li role="presentation"><a href="#blog">Blog</a></li>
+            <li role="presentation">
+              <ul class="nav nav-pills center">
+                <li role="presentation"><a href="mailto:as.kim@utexas.edu"><i class="fa fa-envelope"></i></a></li>
+                <li role="presentation"><a href="https://www.github.com/addykim"><i class="fa fa-github"></i></a></li>
+                <li role="presentation"><a href="https://www.linkedin.com/in/addykim"><i class="fa fa-linkedin"></i></a></li>
+                <li role="presentation"><a href=""><i class="fa fa-stack-overflow"></i></a></li>
+              </ul>
+            </li>
+          </ul>
         </nav>
         <div class="row" id="header">
-          <h1>Addy Kim</h1>
-          <!--<h2>Developer, Craftster, Fitness Enthusiast</h2>-->
-        </div>
-        <div class="row" id="about">
-          <p>I'm a 4th year computer science major at the University of Texas at Austin.</p>
-          <p>I'll be graduating Spring 2017. I enjoy doing wushu and coding.</p>
-          
-        </div>
-        <div class="row" id="projects">
-          <h2>Projects</h2>
-          <div>
-            <div class="col-md-4" id="makeroute">
-              <h3>MakeRoute</h3>
-            </div>
-            <div class="col-md-4" id="cat-viewer">
-              <h3>Cat Viewer</h3>
-            </div>
-            <div class="col-md-4" id="timer">
-              <h3>Timer</h3>
-            </div>
+          <div class="col-md-12">
+            <h1>Addy Kim</h1>
+            <!--<h2>Developer, Craftster, Fitness Enthusiast</h2>-->
           </div>
         </div>
-      </div>
-      <!--            <a href="mailto:as.kim@utexas.edu"><i class="fa fa-envelope-square fa-3x"></i></a>-->
-      <!--            <a href="https://www.linkedin.com/in/addykim"><i class="fa fa-linkedin-square fa-3x"></i></a>-->
-      <!--            <a href="https://www.github.com/addykim"><i class="fa fa-github-square fa-3x"></i></a>-->
-      <!--            <a href="https://www.stackoverflow.com/users/addy"><i class="fa fa-stack-overflow-square fa-3x"></i></a>-->
+        <div class="row" id="about">
+          <div class="col-md-12">
+            <p>I'm a 4th year computer science major at the University of Texas at Austin.</p>
+            <p>I'll be graduating Spring 2017. I enjoy doing wushu and coding.</p>
+          </div>
+        </div>
+        
+        <div class="row" id="projects">
+          <div class="col-md-12">
+            <h2>Projects</h2>
+          </div>
 
+          <div class="col-md-4" id="makeroute">
+            <h3>MakeRoute</h3>
+          </div>
+          <div class="col-md-4" id="cat-viewer">
+            <h3>Cat Viewer</h3>
+          </div>
+          <div class="col-md-4" id="timer">
+            <h3>Timer</h3>
+          </div>
+          
+        </div>
+        
+        <div class="row" id="blog">
+          <div class="col-md-12">
+            <h2>Blog</h2>
+            <p>WIP. Coming (hopefully) soon</p>
+          </div>
+        </div>
       
-      
-      
-      
-      
-      
-      
-      
-      
-  
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script src="js/bootstrap.min.js"></script>
+      </div>
+      <div class="right" id="footer">
+        <div class="container">
+          <hr>© 2015 Addy Kim. All Rights Reserved.
+        </div>
+      </div>
     </body>
   </html>
