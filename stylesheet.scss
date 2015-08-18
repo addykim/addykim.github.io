@@ -12,9 +12,11 @@ body {
 }
 
 .nav {
-  display: inline-block;
- 
- li {
+  ul {
+    display: inline-block;
+  }
+  
+  li {
    list-style-type: none;
    color: purple;
  }

@@ -8,11 +8,11 @@ body {
 .right {
   text-align: right; }
 
-.nav {
+.nav ul {
   display: inline-block; }
-  .nav li {
-    list-style-type: none;
-    color: purple; }
+.nav li {
+  list-style-type: none;
+  color: purple; }
 
 #footer {
   background-color: #fff;
