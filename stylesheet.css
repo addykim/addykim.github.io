@@ -10,8 +10,9 @@ body {
 
 .nav {
   display: inline-block; }
-  .nav ul li {
-    list-style-type: none; }
+  .nav li {
+    list-style-type: none;
+    color: purple; }
 
 #footer {
   background-color: #fff;
