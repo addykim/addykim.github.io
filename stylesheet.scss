@@ -11,13 +11,11 @@ body {
   text-align: right;
 }
 
-#navbar-container {
-  position: fixed;
-  top: 0;
-}
-
-#projects {
-  display: inline;
+.nav {
+  display: inline-block;
+ ul li {
+   list-style-type: none;
+ }
 }
 
 #footer {

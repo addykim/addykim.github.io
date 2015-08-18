@@ -1,5 +1,6 @@
 body {
-  font-family: arial, serif, monospace; }
+  font-family: arial, serif, monospace;
+  position: relative; }
 
 .center {
   text-align: center; }
@@ -7,14 +8,16 @@ body {
 .right {
   text-align: right; }
 
-#projects {
-  display: inline; }
+.nav {
+  display: inline-block; }
+  .nav ul li {
+    list-style-type: none; }
 
 #footer {
   background-color: #fff;
-  position: fixed;
+  bottom: 0;
   height: 100px;
   width: 100%;
-  bottom: 0; }
+  position: absolute; }
 
 /*# sourceMappingURL=stylesheet.css.map */
