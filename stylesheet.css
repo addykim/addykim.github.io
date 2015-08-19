@@ -9,10 +9,10 @@ body {
   text-align: right; }
 
 .nav ul {
-  display: inline-block; }
+  display: inline; }
 .nav li {
   list-style-type: none;
-  color: purple; }
+  color: white; }
 
 #footer {
   background-color: #fff;
