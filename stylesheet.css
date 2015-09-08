@@ -1,6 +1,8 @@
 body {
   font-family: arial, serif, monospace;
-  position: relative; }
+  position: absolute;
+  height: 100%;
+  widith: 100%; }
 
 .center {
   text-align: center; }
@@ -8,11 +10,12 @@ body {
 .right {
   text-align: right; }
 
-.nav ul {
-  display: inline; }
-.nav li {
+ul li {
+  display: inline;
   list-style-type: none;
-  color: white; }
+  text-decoration: none;
+  margin-left: .5em;
+  margin-right: .5em; }
 
 #footer {
   background-color: #fff;
