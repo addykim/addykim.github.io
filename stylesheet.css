@@ -1,11 +1,21 @@
+html {
+  height: 100%;
+  width: 100%; }
+
 body {
   font-family: arial, serif, monospace;
-  position: absolute;
+  position: relative;
   height: 100%;
-  widith: 100%; }
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
 
 .center {
-  text-align: center; }
+  text-align: center;
+  align-content: center; }
+
+#main {
+  padding-top: 10%; }
 
 .right {
   text-align: right; }
@@ -20,7 +30,7 @@ ul li {
 #footer {
   background-color: #fff;
   bottom: 0;
-  height: 100px;
+  height: 75px;
   width: 100%;
   position: absolute; }
 
