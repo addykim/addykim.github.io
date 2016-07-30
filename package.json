@@ -37,7 +37,7 @@
     "ember-export-application-global": "^1.0.5",
     "ember-load-initializers": "^0.5.1",
     "ember-resolver": "^2.0.3",
-    "emberfire": "2.0.1",
+    "emberfire": "git://github.com/firebase/emberfire.git#c81e02868078389558f54b8d66209e9334dd7687",
     "firebase": "3.2.1",
     "loader.js": "^4.0.1"
   }
