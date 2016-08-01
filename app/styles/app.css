@@ -1,0 +1,13 @@
+.center {
+  width: 50%;
+  margin: 0 auto;
+}
+.inline li {
+  display: inline-block;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
