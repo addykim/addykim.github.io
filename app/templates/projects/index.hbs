@@ -1,0 +1,10 @@
+Projects
+
+{{#each model as |project|}}
+<div>
+{{#link-to '/{{project.id}}'}}
+  <img src="{{project.thumbnailUrl}}" height="100px" width="100px" />
+  <div>Title: {{project.title}}</div>
+{{/link-to}}
+</div>
+{{/each}}
