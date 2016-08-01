@@ -7,9 +7,9 @@ module.exports = function(environment) {
     baseURL: '/',
     locationType: 'auto',
     firebase: {
-      // authDomain: 'YOUR-FIREBASE-APP.firebaseapp.com',
-      databaseURL: 'https://addykim.firebaseapp.com',
-      // storageBucket: 'YOUR-FIREBASE-APP.appspot.com',
+      authDomain: 'addykim.firebaseapp.com',
+      databaseURL: 'https://addykim.firebaseio.com',
+      storageBucket: 'addykim.appspot.com'
     },
     EmberENV: {
       FEATURES: {
