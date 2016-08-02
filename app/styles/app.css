@@ -1,8 +1,8 @@
 /* Universal */
 
 html {
-	font-family: 'Josefin Sans', serif;
-	height: 100%;
+  font-family: 'Josefin Sans', serif;
+  height: 100%;
 }
 .header {
   text-align: center;
@@ -39,25 +39,29 @@ html {
 }
 
 .footer {
-	bottom: 0;
-	background: white;
-	height: 50px;
-	position: fixed;
-	padding-top: 20px;
-	width: 100%;
+  bottom: 0;
+  background: white;
+  height: 50px;
+  position: fixed;
+  padding-top: 20px;
+  width: 100%;
 }
 
 /* Specific */
 .project-preview {
-	display: inline-block;
-	height: 150px;
-	overflow: hidden;
+  display: inline-block;
+  height: 150px;
+  overflow: hidden;
 }
-
 .project-icon {
-	border-radius: 50%;
-	height: 100px;
-	width: 100px;
-	padding: 10px;
-	object-fit: cover;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  object-fit: cover;
+}
+#profile-image {
+  border-radius: 50%;
+  display: block;
+  object-fit: cover;
 }
