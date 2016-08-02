@@ -1,8 +1,6 @@
 <h3>Projects</h3>
 
 {{#each model as |project|}}
-  {{#link-to 'projects.view' project.id}}
-    {{#project-icon project=project}}{{/project-icon}}
-  {{/link-to}}
+  {{#project-icon project=project}}{{/project-icon}}
 {{/each}}
-{{#link-to 'projects.new' class="button"}}New{{/link-to}}
+{{#link-to 'projects.new' class="button"}}New Project{{/link-to}}
