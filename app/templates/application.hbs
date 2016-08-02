@@ -1,16 +1,17 @@
 <div class="center">
-  <ul class="nav inline">
-    <li>{{#link-to 'index' class="button"}}Addy Kim{{/link-to}}</li>
-    <li>{{#link-to 'index' class="button"}}About{{/link-to}}</li>
-    <li>{{#link-to 'projects' class="button"}}Projects{{/link-to}}</li>
-    <li><a href="mailto:as.kim@utexas.edu"><i class="fa fa-envelope" alt="Mail"></i></a></li>
-    <li><a href="//www.github.com/addykim"><i class="fa fa-github" alt="Github"></i></a></li>
-    <li><a href="//www.linkedin.com/in/addykim"><i class="fa fa-linkedin" alt="LinkedIn"></i></a></li>
-    <!--          TODO hacker rank information-->
-    <!--          <li><a href="https://www.hackerrank.com/askim"><i class=""></i></a></li>-->
-    <!--          TODO host resumes somewehre else-->
-    <li><a href=""><i class="fa fa-file-text-o"></i></a></li>
-  </ul>
+  <h1 class="header">{{#link-to 'index' class="button"}}Addy Kim{{/link-to}}</h1>
+  <div class="nav">
+    <ul class="inline text-center">
+      <li>{{#link-to 'index' class="button"}}About{{/link-to}}</li>
+      <li>{{#link-to 'projects' class="button"}}Projects{{/link-to}}</li>
+      <li><a href="mailto:as.kim@utexas.edu"><i class="fa fa-envelope fa-x" alt="Mail"></i></a></li>
+      <li><a href="//www.github.com/addykim"><i class="fa fa-github fa-x" alt="Github"></i></a></li>
+      <li><a href="//www.linkedin.com/in/addykim"><i class="fa fa-linkedin fa-x" alt="LinkedIn"></i></a></li>
+      <!--          TODO hacker rank information-->
+      <!--          <li><a href="https://www.hackerrank.com/askim"><i class=""></i></a></li>-->
+      {{!-- <li><a href=""><i class="fa fa-file-text-o"></i></a></li> --}}
+    </ul>
+  </div>
   {{outlet}}
   <div class="footer">
     <span>© 2016 Addy Kim. All Rights Reserved.</span>
