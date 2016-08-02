@@ -1,6 +1,19 @@
+/* Universal */
+
+html {
+	font-family: 'Josefin Sans', serif;
+	height: 100%;
+}
+
 .center {
   width: 50%;
   margin: 0 auto;
+}
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
 }
 .inline li {
   display: inline-block;
@@ -8,6 +21,29 @@
 .text-center {
   text-align: center;
 }
+.text-left {
+	text-align: left;
+}
 .text-right {
   text-align: right;
+}
+
+.footer {
+	bottom: 0;
+	height: 50px;
+	position: fixed;
+	width: 100%;
+}
+
+/* Specific */
+.project-preview {
+	display: inline-block;
+	height: 150px;
+	overflow: hidden;
+}
+
+.project-icon {
+	height: 100px;
+	width: 100px;
+	padding: 10px;
 }
