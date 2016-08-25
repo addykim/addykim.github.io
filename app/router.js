@@ -6,9 +6,13 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('about');
-  this.route('projects');
-  this.route('contact');
+  this.route('page-not-found', { path: '/*wildcard' });
+
+  this.route('projects', function() {
+  	this.route('new');
+  	this.route('edit', { path: '/:project_id/edit'} );
+  	this.route('view', { path: '/:project_id/view'} );
+  });
 });
 
 export default Router;
