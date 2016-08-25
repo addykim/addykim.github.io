@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  classNames: ['project-preview'],
+  classNames: ['project-block'],
 
   showMore: function() {
   	return true;

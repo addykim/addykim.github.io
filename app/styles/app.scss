@@ -1,16 +1,20 @@
 /* Universal */
+$background:#fbfbfb;
+$project-icon-size:150px;
+$project-icon-padding:10px;
 
 html {
+  background:$background;
   font-family: 'Josefin Sans', serif;
   height: 100%;
 }
 .header {
+  padding-top:10px;
   text-align: center;
 }
 h1.header a {
   color: #000000;
   text-decoration: none;
-
 }
 .center {
   margin: 0 auto;
@@ -54,18 +58,21 @@ h1.header a {
 
 /* Specific */
 .project-block {
-  display:block;
+  display:inline-block;
   text-align:center;
-  width:200px;
+  width:$project-icon-size+2*$project-icon-padding;
+  * > {
+    display:inline-block;
+  }
   .icon {
     border-radius:50%;
-    height:100px;
-    width:100px;
-    padding:10px;
+    height:$project-icon-size;
+    width:$project-icon-size;
+    padding:$project-icon-padding;
     object-fit:cover;
   }
   .title {
-
+    display:block;
   }
   .options {}
 }
@@ -73,11 +80,11 @@ h1.header a {
   display:inline-block;
 }
 #page-not-found-image {
-  height: 50%;
-  width: 50%;
+  height:50%;
+  width:50%;
 }
 #profile-image {
-  border-radius: 50%;
-  display: block;
+  border-radius:50%;
+  display:block;
   object-fit: cover;
 }

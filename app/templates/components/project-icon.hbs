@@ -1,19 +1,10 @@
-<div class="float-left">
+<div>
   {{#link-to 'projects.view' project.id}}
-		<img src="{{project.thumbnailUrl}}" class="project-icon" alt="{{project.title}}" />
-	{{/link-to}}
+	  <img src="{{project.thumbnailUrl}}" class="icon" alt="{{project.title}}" />
+   {{/link-to}}
+  {{#link-to 'projects.view' project.id class="title"}}{{project.title}}{{/link-to}}
 </div>
-<div class="text-right">
-  <span>
-    {{#link-to 'projects.view' project.id}}
-      <b>{{project.title}}</b>
-    {{/link-to}}
-  </span>
-  <span>
-    {{#link-to 'projects.edit' project.id}}Edit{{/link-to}}
-  </span>
-  <div class="text-left">
-    {{show-more project.description}}
-    {{#link-to 'projects.view' project.id}}Read More{{/link-to}}
-	</div>	
-</div>
+<div class="options">
+  <span>{{#link-to 'projects.edit' project.id}}Edit{{/link-to}}</span>  
+  <span>{{!#link-to}}Delete{{!/link-to}}</span>
+</div> 
