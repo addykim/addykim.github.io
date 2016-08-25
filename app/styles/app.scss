@@ -1,10 +1,10 @@
 /* Universal */
 $background:#fbfbfb;
+$nav-padding:0 20px;
 $project-icon-size:150px;
 $project-icon-padding:10px;
 
 html {
-  background:$background;
   font-family: 'Josefin Sans', serif;
   height: 100%;
 }
@@ -29,9 +29,17 @@ h1.header a {
 }
 .nav {
   width: 100%;
+  a {
+    padding:$nav-padding;
+    a:visited {
+      text-decoration: none;
+    }
+  }
 }
-.nav li {
-  margin: 0 10px;
+.inline ul {
+  list-style:none;
+  margin:0;
+  padding:0;
 }
 .inline li {
   display: inline-block;
