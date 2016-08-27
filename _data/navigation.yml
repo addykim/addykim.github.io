@@ -1,0 +1,10 @@
+# Site navigation links
+
+- title: projects
+  url: /projects/
+
+- title: blog
+  url: /blog/
+
+- title: SWE blog
+  url: /swe-blog/
