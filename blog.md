@@ -1,7 +1,7 @@
 ---
 layout: page
-title: swe-blog
-permalink: /swe-blog/
+title: blog
+permalink: /blog/
 ---
 <ul class="post-list">
 {% for post in site.posts %}
