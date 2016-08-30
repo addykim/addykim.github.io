@@ -2,8 +2,6 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
@@ -14,15 +12,21 @@
 
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
-          {% if site.github_username %}
+          {% if site.github %}
           <li>
-            {% include icon-github.html username=site.github_username %}
+            {% include icon-github.html username=site.github %}
           </li>
           {% endif %}
 
-          {% if site.twitter_username %}
+          {% if site.twitter %}
           <li>
-            {% include icon-twitter.html username=site.twitter_username %}
+            {% include icon-twitter.html username=site.twitter %}
+          </li>
+          {% endif %}
+          
+          {% if site.linkedin %}
+          <li>
+            {% include icon-linkedin.html username=site.linkedin %}
           </li>
           {% endif %}
         </ul>
