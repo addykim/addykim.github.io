@@ -1,6 +1,6 @@
 ---
 layout: page
-title: blog
+title: CS373 Fall 2016: Addy Kim
 permalink: /blog/
 ---
 <ul class="post-list">
