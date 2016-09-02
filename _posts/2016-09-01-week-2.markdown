@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Week 2"
+date: 2016-08-02
+tags: [swe-extra-credit]
+comments: true
+---
+
+**What did you do this past week?**
+Been busy with school.
+
+**What's in your way?**
+
+
+**What will you do next week?**
+Taking care of things I've put off all summer like going to the optometrist, seeing my parents again to grab my interview clothes.
+
+---
+**Experiences in Class**
+Do the readings before class! Especially on Monday the in-class quizzes.
+
+This week we were assigned ranks based on how well we are doing in the class.
+Assigned project 1
+Like any other class, start the projects early. I just work on the project a couple hours a day everyday. This is much less painful than working 10+ hours to get it done last minute.
+Go to the office hours.
+
+---
+**Tip(s)-of-the-week**
+Interview season is coming up. Practice whiteboarding with someone if you can. It's much different than having a keyboard in front of you. To be honest, I sometimes will pause, and pretend to type on a keyboard in order to help me think what I might be doing if I was coding the actual. 
+
