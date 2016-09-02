@@ -1,6 +1,12 @@
+$avatar-size:300px;
+
+$project-block-size:200px;
+$project-logo:150px;
+$project-padding:10px;
+
 .site-avatar {
-	height:300px;
-	width:300px;
+	height:$avatar-size;
+	width:$avatar-size;
 	border-radius:50%;
 	object-fit:cover;
 }
@@ -16,6 +22,17 @@
 .right {
 	float:right;
 }
-.icon-link {
-	text-decoration: none;
+.project-block {
+	display:inline-table;
+	height:$project-block-size;
+	padding:$project-padding;
+	.project-logo {
+		height:$project-logo;
+		width:$project-logo;
+	}
+	a.project-link {
+		display:block;
+		width:$project-logo;
+		text-align:center;
+	}
 }
