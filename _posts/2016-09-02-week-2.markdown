@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Week 2"
+date: 2016-08-02
+tags: [swe-extra-credit]
+comments: true
+---
+
+**What did you do this past week?**
+
+Going to classes, doing the readings, and working.
+
+**What's in your way?**
+
+Nothing much. Things are moving along smoothly.
+
+**What will you do next week?**
+
+Taking care of things I've put off all summer like going to the optometrist.
+
+---
+**Experiences in Class**
+
+Manual add-drop by students has closed and classes are finally ramping up. We had readings "due" on Monday which ended up being most of the content for the in-class quiz.
+
+This week we were assigned project 1, writing a python script that will find the maximum cycle length when given a range of numbers. Like any other class, start the projects early. I work on the project a couple hours a day everyday, something that is much less painful than 10+ hours the day it is due. The specification is vague in some areas, as would software development in real life, but Downing used Wednesday's class to clairfy some of the steps we should do in order to get our project to work. I haven't had too many problems so far, so I haven't needed to visit office hours yet.
+
+We were also assigned ranks based on how well we are doing in the class. Downing seems to enjoy giving us metrics to "compete" amonst others with. He also encouraged screenshotting our project 1 times according to [Sphere](spoj.com).
+
+Today (Friday) we had a speaker come in to encourage us to join Longhorn Startup Seminar and lab. Students have until the 12th class day to add classes through an adviser, so there still is enough time to attend a lecture to see if we want to join the class. It seems like the lecture and lab would be a great experience.
+
+---
+**Tip(s)-of-the-week**
+
+Interview season is coming up. Practice whiteboarding with someone if you can. It's much different than having a keyboard in front of you. To be honest, I sometimes will pause, and pretend to type on a keyboard in order to help me think what I might be doing if I was coding the actual. 
+
