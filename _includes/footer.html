@@ -18,21 +18,30 @@
         <ul class="social-media-list">
           {% if site.github %}
           <li>
-            {% include icon-github.html username=site.github %}
+            <a href="https://github.com/{{ site.github }}"><span class="icon icon--github"><i class="fa fa-github fa-lg"></i></span> <span class="username">{{ site.github }}</span></a>
+
           </li>
           {% endif %}
 
           {% if site.twitter %}
           <li>
-            {% include icon-twitter.html username=site.twitter %}
+            <a href="https://twitter.com/{{ site.twitter }}"><span class="icon icon--twitter"><i class="fa fa-twitter fa-lg"></i></span> <span class="username">{{ site.twitter }}</span></a>
           </li>
           {% endif %}
           
           {% if site.linkedin %}
           <li>
-            {% include icon-linkedin.html username=site.linkedin %}
+            <a href="https://linkedin.com/in/{{ site.linkedin }}"><span class="icon icon-link"><i class="fa fa-linkedin fa-lg"></i></span> <span class="username">{{ site.linkedin }}</span></a>
           </li>
           {% endif %}
+
+           {% if site.resume %}
+          <li>
+            <a href="https://linkedin.com/in/{{ site.resume }}"><span class="icon icon-link"><i class="fa fa-file-pdf-o fa-lg"></i></span> <span class="username">{{ site.resume }}</span></a>
+          </li>
+          {% endif %}
+          <li>
+
         </ul>
       </div>
     </div>
