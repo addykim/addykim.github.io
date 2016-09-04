@@ -4,6 +4,9 @@ $project-block-size:200px;
 $project-logo:150px;
 $project-padding:10px;
 
+$tag-color:#ffe4e1;
+$tag-padding:3px;
+
 .site-avatar {
 	height:$avatar-size;
 	width:$avatar-size;
@@ -34,5 +37,17 @@ $project-padding:10px;
 		display:block;
 		width:$project-logo;
 		text-align:center;
+	}
+}
+
+.project-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+.project-tags {
+	a.tag {
+		background-color:$tag-color;
+		padding:$tag-padding;
 	}
 }
