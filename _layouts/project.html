@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<article class="project">
+
+  <header class="project-header">
+  	<h1 class="project-title">{{ page.title | escape }}</h1>
+    <span class="project-meta">
+  	{% if page.date_range %}
+  		{{page.date_range}}
+  	{% endif %}
+  	{% if page.date_started %}
+  		<time 
+  			datetime="{{ page.date_started | date_to_xmlschema }}" 
+  			itemprop="datePublished">
+  			{{ page.date_started | date: "%b %Y" }}
+		</time>
+		{% if page.date_finished %} - 
+			<time 
+				datetime="{{ page.date_finished | date_to_xmlschema }}" 
+				itemprop="datePublished">
+			{{ page.date_finished | date: "%b %Y" }}
+			</time>
+		{% endif %}
+	{% endif %}
+	</span>
+  {% if page.github_url %}  
+    <br><span class="project-meta">
+      <a href="http://www.github.com/addykim/{{page.github_url}}">
+        <i class="fa fa-github"></i> Github Repository
+      </a>
+    </span>
+  {% endif %}
+
+
+  </header>
+
+  <div class="project-content">
+    {{ content }}
+  </div>
+
+  <div class="project-tags">
+    Tags: <a class="tag">{{page.tags}}</a>
+  </div>
+
+</article>

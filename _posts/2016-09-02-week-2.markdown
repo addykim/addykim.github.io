@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Week 2"
-date: 2016-08-02
+date: 2016-09-02
 tags: [swe-extra-credit]
 comments: true
 ---
