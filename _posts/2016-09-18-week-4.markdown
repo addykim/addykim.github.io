@@ -1,0 +1,35 @@
+---
+layout: post
+title: "Week 4"
+date: 2016-09-18
+tags: [swe-extra-credit]
+comments: true
+---
+
+**What did you do this past week?**
+
+Interview prep, homework
+
+**What's in your way?**
+
+I had food poisoning or indigestion (probably the latter) for a day and a half. That made me lose a day that I had planned on getting head for the next week. In addition, I have multiple deadlines that I was unable to get ahead on because I'm aware of the assignments, I am not given the details until a certain date and time.
+
+
+**What will you do next week?**
+Career fair and trying out game development at a Unity workshop for women this weekend.
+
+---
+**Experiences in Class**
+
+Went over project 2 that was assigned on Monday. This is our first project that we can work on with another student. We were told in the future we will be having projects where we will be working with groups of people greater than pairs. 
+
+On Wednesday, we had a previous student of Downing's come into class as a guest speaker to talk about Bloomberg. He discussed what they do, and what he does as a software engineer at Bloomberg. 
+
+Downing ended up quizzing us on Friday with details that the alumni mentioned at the lecture. Friday was spent learning more about the intricacies of Python such as how types are affected by operations and in-place operations. In addition we discussed runtime speed of operations using Factorials as an example. 
+
+The second project is going to be due this upcoming week a couple days after career fair. This week has been rather stressful trying to work on netflix as much as possible before career fair.
+
+---
+**Tip(s)-of-the-week**
+
+Find a platform that aggreegates news and data for you so you can stay up to speed. Make sure that platform is something that works for how you already absorb media. I thought I could adopt using Feedly, but I found instead having email newsletters are better for me since I treat my inbox like a todo list.
