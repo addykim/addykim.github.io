@@ -1,0 +1,33 @@
+---
+layout: post
+title: "Week 6"
+date: 2016-10-02
+tags: [swe-extra-credit]
+comments: true
+---
+
+**What did you do this past week?**
+
+Catching back up in school, trying to recover from an illness.
+
+**What's in your way?**
+
+I've been feeling under the weather.
+
+**What will you do next week?**
+
+More interviewing...
+
+---
+**Experiences in Class**
+
+I'm nervous about the test we'll have next week. I will spend this weekend doing the readings and looking at blogs by previous students in the class in order to find that out. Luckily as a part of this extra credit assignment, we need to label the blog `CS 373 <Semester Year>` which will make searching easy. I have no idea how future students are supposed to find these blogs, as I knew nothing of them until I was assigned this for extra credit.
+
+We were at least given the format of the test will go. Like the quizzes, we will be taking the exam on canvas using our personal devices using a browser, preferably on our laptop. We are also allowed to have a sheet of 11"x8.5" paper to take notes on both sides, but the sheet of paper must not have any actual code on it. Interfaces are okay. This makes sense as our exam will have us coding via our Canvas. We were also given a list of concepts we will be tested over. I think generators and list comprehension are a bit difficult to keep track of, especially when having to keep up with the concept of maps and filters.
+
+As part of my study guide, I will add summaries of the readings and interfaces for concepts we were tested over. Hopefully, we will not be tested over anything JavaScript since we have not done any actual coding with it yet. All of coding in-class and out-of-class has been in Python.
+
+---
+**Tip(s)-of-the-week**
+
+Always start studying early if you know the exam dates before hand. In my other classes that involve memorizing tons of facts, I tend to start making study guides as a way to review the material I had learned that day.
