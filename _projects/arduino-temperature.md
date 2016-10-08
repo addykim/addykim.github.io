@@ -1,8 +1,10 @@
 ---
 layout: project
 title: Arduino Temperature
+date_started: October 2014
 where: HackTX 2014
-github-url: LANhacksTX
+github_url: LANhacksTX
+short_description: Displays temperature dependant on temperature on arduino LCD screen
 tags:
 - hardware
 - arduino

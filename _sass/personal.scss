@@ -7,6 +7,13 @@ $project-padding:10px;
 $tag-color:#ffe4e1;
 $tag-padding:3px;
 
+$project-header-font: $base-font-size * 1.25;
+$project-header-weight: 500;
+$project-line-height: $base-font-size * 0.5;
+
+$project-small-font: $base-font-size * 0.75;
+// $project-small-font: $
+
 .site-avatar {
 	height:$avatar-size;
 	width:$avatar-size;
@@ -40,9 +47,25 @@ $tag-padding:3px;
 	}
 }
 
+.project-summary {
+	line-height: $project-line-height;
+
+}
+
+.project-header {
+	font-size: $project-header-font;
+	line-weight: $project-header-weight;
+	color: $grey-color;
+}
+
 .project-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    // color: $grey-color;
+}
+
+.project-description {
+	font-size: $small-font-size;
+	color: $grey-color;
 }
 
 .project-tags {

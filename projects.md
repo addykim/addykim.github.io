@@ -4,9 +4,13 @@ title: projects
 permalink: /projects/
 ---
 {% for project in site.projects %}
-<div class="project-block">
-	<img src="{{project.logo}}" class="project-logo"/>
-	<a class="project-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title | escape }}</a>
+<div class="project-summary">
+	<p class="project-header">
+		<a href="{{ project.github_url }}">{{ project.title | escape }}</a>
+		<span class="project-meta">{{ project.date_started }} - {{ project.date_finished }}</span>
+	</p>
+	<p>{{ project.short_description | escape }}</p>
+	<br><br>
 </div>
 
 {% endfor %}
