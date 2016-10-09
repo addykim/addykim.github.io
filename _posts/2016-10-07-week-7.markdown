@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Week 7"
+date: 2016-10-09
+tags: [swe-extra-credit]
+comments: true
+---
+
+**What did you do this past week?**
+
+Took my first red-eye on the way back from an on-site interview in Seattle.
+
+**What's in your way?**
+
+Exhausted from the red-eye made me lose some time in the week.
+
+**What will you do next week?**
+
+Catch up on school work and start planning out ways to practice for the final.
+
+---
+**Experiences in Class**
+
+We took the first test for the semester. Overall the test felt fair, but I don't think I did too well since my study methods were not the best for this type of exam. We logged into Canvas and took our exams on our laptops. We had to use the "preformatted" setting on the Canvas editor which was annoying since I am so used to working in an IDE Or text editor. We also had no way to verify our code, so getting used to good python style may be important. We were allowed a singular 8.5"x11" page with notes, but I felt it wasn't as helpful. We aren't allowed to have actual code, but interfaces are allowed. I wish I had included information like what a python function returned. 
+
+I was rather annoyed by the logistics of the exam - we needed to check in, show the TA our cheat sheets, then sign out with Downing when you are done with the exam. This isn't a huge deal since it is to enforce academic integrity, but this eats up a lot of time. Our exam was scheduled for 8PM, but Downing told us that the OOP exam before ours would run a little late, and to expect to start close to 8:15PM. In reality we didn't even enter the exam room until 8:30PM. Thankfully, we were still given the full hour and half the exam was supposed to take.
+
+---
+**Tip(s)-of-the-week**
+
+For Downing's tests, I recommend practicing implementing the functions in class using a simple word processor. Assume you will not have access to all the time-saving short cuts. I would then test that code in the python interpretor to make sure it works.
