@@ -2,7 +2,8 @@
 layout: project
 title: Fingerprint Authenticator
 logo: 
-date: November 2015
+<!-- date: November 2015 -->
+date_range: Fall 2015
 github-url: clover-authenticator
 tags: 
 - android
