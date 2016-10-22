@@ -13,6 +13,9 @@ permalink: /projects/
 		{% else %}
 			<span class="project-meta">{{ project.date_started }} - {{ project.date_finished }}</span>
 		{% endif %}
+		{% if project.github_url %}
+			<a href="https://github.com/{{ project.github_url }}"><i class="fa fa-github"></i></a>
+		{% endif %}
 	</p>
 	<p>{{ project.short_description | escape }}</p>
 	<br><br>

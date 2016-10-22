@@ -4,7 +4,7 @@ title: VR Karaoke (Google Cardboard)
 logo: 
 where: Spectra Hackathon, Youtube HQ
 date_range:	Summer 2016
-github-url: VR-Karaoke
+github_url: addykim/VR-Karaoke
 tags:
 - android
 - vr

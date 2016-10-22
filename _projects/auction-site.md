@@ -3,7 +3,7 @@ layout: project
 title: PHP Auction Site
 date_started: February 2016
 date_finished: April 2016
-github_url: http://github.com/addykim/CS105-PHPSQL
+github_url: addykim/CS105-PHPSQL
 short_description: LAMP stack web app using SQL and PHP
 tags:
 - web

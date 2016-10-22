@@ -4,7 +4,7 @@ title: VR Karaoke (Oculus)
 logo: 
 where: HackTX
 date_range:	Fall 2016
-github-url: VR-Karaoke
+github_url: addykim/VR-Karaoke
 tags:
 - android
 - vr

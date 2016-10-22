@@ -2,9 +2,8 @@
 layout: project
 title: Fingerprint Authenticator
 logo: 
-<!-- date: November 2015 -->
-date_range: Fall 2015
-github-url: clover-authenticator
+date_range: November 2015
+github_url: addykim/clover-authenticator
 tags: 
 - android
 - hackathon

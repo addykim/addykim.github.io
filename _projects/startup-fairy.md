@@ -6,7 +6,7 @@ where:
 date_range:			# example: Summer 2016, Fall 2015
 date_started: 2016-10-07
 date_finished: Present
-github-url: github.com/cs373g # TODO update
+github_url: cs373gc-fall-2016/Startup-Fairy
 tags:
 - server
 - web

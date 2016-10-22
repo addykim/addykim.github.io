@@ -2,7 +2,7 @@
 layout: project
 title: Cat Viewer
 logo:
-github_url: https://github.com/addykim/Cat-Viewer
+github_url: addykim/Cat-Viewer
 short_description: Android app that shows random cat pictures from Imgur
 tags:
 - android

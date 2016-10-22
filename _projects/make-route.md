@@ -3,8 +3,8 @@ layout: project
 title: Make Route
 logo: 
 where: Hack DFW 2015
-date_range: Spring 2015
-github-url:
+date_range: April 2015
+github_url: addykim/MakeRoute
 short_description: 
 tags:
 - web

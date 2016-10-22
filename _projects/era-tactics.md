@@ -4,7 +4,7 @@ title: Era Tactics
 logo: http://i.imgur.com/7Q367IG.png
 date_started: March 2016
 date_finished: May 2016
-github_url: http://github.com/addykim/Era-tactics
+github_url: addykim/Era-tactics
 short_description: Simple strategy game for Android
 tags:
 - android

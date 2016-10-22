@@ -6,7 +6,10 @@ date_finished: Present
 short_description: Pomodoro Timer with a focus on Accessibility built using Angular 2
 tags: 
 - web
+- class_assignment
 ---
+
+For Intro to Cyberspace
 
 Ambitious use of emberJs when I didn't knwo what I was doing.
 Attempting to use firebase.
