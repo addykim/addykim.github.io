@@ -1,0 +1,37 @@
+---
+layout: post
+title: "Week 12"
+date: 2016-11-13
+tags: [swe-extra-credit]
+comments: true
+---
+
+**What did you do this past week?**
+
+Just school work.
+
+**What's in your way?**
+
+Many overlapping deadlines. I was also sick for a day.
+
+**What will you do next week?**
+
+Try to complete all the projects due next week.
+
+---
+**Experiences in Class**
+
+I don't have much to write about this week. We started reviewing material over refacttoring from the readings we should have been doing for the past month now. 
+
+I think this past week was also when Donwing told us about presentations we will be doing in class over the project we have been working on for over a month now. We also will need to make use of another group's API for our project. Thankfully if we are assigned a group with a faulty API, our grade will not be penalized. 
+
+I really wish I had recruited earlier for a group, before this project had been assigned. I would have been able to select the groups that fit my work style better. Problems within the group have mostly been resolved except for the lack of communication. I'm worried I'll end up having to stress over this project for a third time, which I should not be having to do.
+
+I'm hopefully going to get a on-site interview with a company this  upcoming week, and I have let my partners know that the possiblity of me becoming unavailable is there.
+
+I think this upcoming week will be the roughest week I have yet, since I have about ~7 deadlines all within this week, going into next sunday. I also will finally be finishing my recruiting season this Friday. I am excited to be able to relax a bit more after these upcoming weeks.
+
+---
+**Tip(s)-of-the-week**
+
+Keep a journal. It's a great way of emotionally and mentally unwinding and keeping your emotions in control. If you're also forgetful like me, it might also be helpful for when you have to .
