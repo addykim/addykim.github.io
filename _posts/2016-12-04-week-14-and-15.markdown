@@ -1,0 +1,46 @@
+---
+layout: post
+title: "Week 14 and 15"
+date: 2016-12-04
+tags: [swe-extra-credit]
+comments: true
+---
+**What did you do this past week?**
+
+Study for finals and try to complete any remaining homework.
+
+**What's in your way?**
+
+I was feeling sick Tuesday with my symptoms starting to get worse before the final on Thursday.
+
+**What will you do next week?**
+
+Study for my remaining finals and recover.
+
+---
+**Experiences in Class**
+
+There was no blog last week since there was only one week of class. This will be the final blog for this semester since it is also the final week of classes.
+
+This year is special because the final day of class is actually on a Monday rather than Friday in the past. For the last 3 days of class, we presented in class the site we have been working on for the past month. We discussed tools we used, gave a demo, critiqued our own site, and critiqued another site. 
+
+We had the final on Thursday. I knew how to prepare for it better, but being ill, I was unable to focus while studying. Thankfully, we had no class the day after. I was  originally going to use the Friday to work on another extra credit that was assigned, but used that time instead to rest.
+
+I'm glad that this class is finally coming to an end. Because there was an uneven distribution of work for my latter group projects, this was much more stressful. I also forgot how to study for exams, since most of my classes were project based. I think if I had kept up with both aspects, this experience would have been smoother. Would I recommend this class? Extremely. I think this was the most practical class taught in the CS department. 
+
+Downing posted a bunch of questions on Piazza. I'll end this blog post by answering those:
+
+Estimates of:
+- weekly time spent studying, reading - 2-4 hours.
+- weekly time spent coding, testing, debugging - 10 - 20 hours
+- total lines of code produced for the term - I honestly don't feel like looking this up.
+
+Plans after graduating:
+- grad school: I do not plan on going to grad school.
+- job: I'll be at Amazon working on the Alexa engine in the Bay Area.
+- downtime: I'll be traveling this up coming winter break, and hopefully during the summer after graduating. 
+
+---
+**Tip(s)-of-the-week**
+
+I've ran out of tips. 
