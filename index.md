@@ -14,7 +14,7 @@ layout: page
 </div>
 <div>
   <h3 id="projects">Projects</h3>
-  {% for project in site.projects %}
+  {% for project in site.projects reversed %}
   <div class="project-summary">
     <p class="project-header">
       <!-- <a href="{{ project.github_url }}">{{ project.title | escape }}</a> -->

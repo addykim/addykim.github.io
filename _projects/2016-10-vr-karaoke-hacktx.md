@@ -1,10 +1,12 @@
 ---
 layout: project
 title: VR Karaoke (Oculus)
+short_description: Attempt to port Android/Google Cardboard version to Oculus
 logo: 
 where: HackTX
 date_range:	Fall 2016
 github_url: addykim/VR-Karaoke
+published: false
 tags:
 - android
 - vr
