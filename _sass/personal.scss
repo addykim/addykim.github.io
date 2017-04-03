@@ -17,6 +17,7 @@ $project-small-font: $base-font-size * 0.75;
 .site-avatar {
 	height:$avatar-size;
 	width:$avatar-size;
+	padding: 10px;
 	border-radius:50%;
 	object-fit:cover;
 }
@@ -45,6 +46,11 @@ $project-small-font: $base-font-size * 0.75;
 		width:$project-logo;
 		text-align:center;
 	}
+}
+
+.front-page-summary {
+	border-bottom: 1px solid #e8e8e8;
+	padding-bottom: 30px;
 }
 
 .project-summary {
