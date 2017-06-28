@@ -18,7 +18,7 @@ email: addysgkim@gmail.com
 resume: assets/Addy Kim Resume.pdf
 logo: /assets/avatar.jpg
 description: > # this means to ignore newlines until "baseurl:"
-  Computer Science major at UT Austin graduating May 2017
+  Computer Science major graduated from UT Austin
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "http://example.com" # the base hostname & protocol for your site
 twitter: __addykim

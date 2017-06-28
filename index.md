@@ -8,7 +8,6 @@ layout: page
   	Information Studies and Business Minor<br>
   </p>
   <p>Joining <a href="https://www.amazon.com">Amazon</a> as a Software Development Engineer in August<br>
-  	Currently interning at <a href="https://www.squarecap.com">Squarecap</a><br>
   	Previously interned at <a href="https://www.clover.com">Clover Network</a> and <a href="https://www.squarecap.com">Squarecap</a><br>
   </p>
 </div>
